@@ -13,6 +13,10 @@
     height:300px;
 }
 
+.githubLink {
+    margin: 20px;
+}
+
 
 .canvas {
     float: left;
