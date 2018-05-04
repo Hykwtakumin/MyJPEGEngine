@@ -1,0 +1,21 @@
+
+.selectImage {
+    margin: 20px;
+    height:50px;
+}
+
+.qualitySlider {
+    margin: 20px;
+    height:50px;
+}
+
+.container {
+    height:300px;
+}
+
+
+.canvas {
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
