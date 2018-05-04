@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>My JPEG Engine</title>
+</head>
+<body>
+<h1>My JPEG Engine</h1>
+<div class="selectImage">
+    <input type="file" id="selectImage" accept='image/*'>
+</div>
+<div class="qualitySlider">
+    <div>
+        <label for="quality">Quality</label>
+    </div>
+    Low <input id="quality" type="range" value="50" step="10"> High
+</div>
+<div class="container">
+    <div class="canvas">
+        <span>Original</span>
+        <br>
+        <canvas id="rawCanvas" width="256" height="256">
+            This browser is not supporting HTML5 canvas.
+        </canvas>
+    </div>
+    <div class="canvas">
+        <span>Spectrum</span>
+        <br>
+        <canvas id="spectrumCanvas" width="256" height="256">
+            This browser is not supporting HTML5 canvas.
+        </canvas>
+    </div>
+    <div class="canvas">
+        <span>Compressed</span>
+        <br>
+        <canvas id="compCanvas" width="256" height="256">
+            This browser is not supporting HTML5 canvas.
+        </canvas>
+    </div>
+    <div class="canvas">
+        <span>Difference</span>
+        <br>
+        <canvas id="diffCanvas" width="256" height="256">
+            This browser is not supporting HTML5 canvas.
+        </canvas>
+    </div>
+</div>
+<div>
+    <h3>View Source</h3>
+</div>
+</body>
+</html>
